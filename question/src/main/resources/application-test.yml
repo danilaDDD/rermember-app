@@ -1,0 +1,6 @@
+spring:
+  config:
+    import: classpath:/application-common-test.yml
+
+  liquibase:
+    change-log: db/changelog/db.changelog-test.xml
